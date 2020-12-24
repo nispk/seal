@@ -1,0 +1,8 @@
+polynomial_modulus,avg_encode_ckks,avg_decode_ckks,avg_encrypt_ckks,avg_decrypt_ckks,avg_add_ckks,avg_multiply_ckks,avg_multiply_plain_ckks,avg_square_ckks,avg_relinearize_ckks,avg_rescale_ckks,avg_rotate_one_step_ckks,avg_rotate_random_ckks,avg_conjugate_ckks,
+4096 , 784 , 513 , 2956 , 70 , 16 , 334 , 54 , 232 , 1001 , 228 , 1026 , 3677 , 1078 , 
+
+8192 , 1115 , 2588 , 7117 , 258 , 64 , 1528 , 228 , 715 , 6055 , 1030 , 6134 , 24671 , 5510 , 
+
+16384 , 3431 , 7826 , 22646 , 1182 , 382 , 4757 , 923 , 3479 , 36389 , 4350 , 36065 , 141974 , 36182 , 
+
+32768 , 15510 , 44776 , 81150 , 5243 , 1451 , 19704 , 3591 , 16035 , 236180 , 19852 , 236997 , 1230810 , 244097 , 

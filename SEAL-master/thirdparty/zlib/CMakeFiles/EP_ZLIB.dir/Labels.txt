@@ -1,0 +1,14 @@
+# Target labels
+ EP_ZLIB
+# Source files and their labels
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB-complete.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-install.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-mkdir.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-download.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-update.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-patch.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-configure.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-build.rule
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-test.rule

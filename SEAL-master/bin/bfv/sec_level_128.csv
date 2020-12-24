@@ -1,0 +1,8 @@
+polynomial_modulus,avg_batch_bfv,avg_unbatch_bfv,avg_encrypt_bfv,avg_decrypt_bfv,avg_add_bfv,avg_multiply_bfv,avg_multiply_plain_bfv,avg_square_bfv,avg_relenearize_bfv,avg_rotate_rows_one_step_bfv,avg_rotate_rows_random_bfv,avg_rotate_columns_bfv,
+4096 , 170 , 197 , 2530 , 644 , 16 , 5823 , 1515 , 4201 , 1349 , 1141 , 5145 , 1243 , 
+
+8192 , 126 , 148 , 7592 , 2208 , 57 , 23611 , 2431 , 13938 , 5482 , 5713 , 21644 , 5412 , 
+
+16384 , 266 , 355 , 22148 , 8724 , 264 , 94504 , 10766 , 59664 , 38039 , 36598 , 183477 , 36173 , 
+
+32768 , 6473 , 5415 , 479685 , 341561 , 2433 , 2733497 , 50020 , 278676 , 957115 , 1224103 , 2247996 , 1209527 , 

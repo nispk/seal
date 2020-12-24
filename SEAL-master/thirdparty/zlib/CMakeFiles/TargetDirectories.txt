@@ -1,0 +1,3 @@
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.dir
+/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/edit_cache.dir

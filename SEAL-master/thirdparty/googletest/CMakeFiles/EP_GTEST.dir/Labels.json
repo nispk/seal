@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/CMakeFiles/EP_GTEST"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/CMakeFiles/EP_GTEST.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/CMakeFiles/EP_GTEST-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-update.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/stamp/EP_GTEST-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_GTEST"
+		],
+		"name" : "EP_GTEST"
+	}
+}
