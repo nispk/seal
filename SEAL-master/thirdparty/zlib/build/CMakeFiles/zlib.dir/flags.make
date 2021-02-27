@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG -fPIC
 
 C_DEFINES = -DZLIB_DLL -D_LARGEFILE64_SOURCE=1
 
-C_INCLUDES = -I/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build -I/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src 
+C_INCLUDES = -I/nisp/SEAL-master/thirdparty/zlib/build -I/nisp/SEAL-master/thirdparty/zlib/src 
 

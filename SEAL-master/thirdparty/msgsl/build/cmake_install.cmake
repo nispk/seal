@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src
+# Install script for directory: /nisp/SEAL-master/thirdparty/msgsl/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src/include/gsl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/nisp/SEAL-master/thirdparty/msgsl/src/include/gsl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Microsoft.GSL/Microsoft.GSLConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Microsoft.GSL/Microsoft.GSLConfig.cmake"
-         "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/build/CMakeFiles/Export/share/cmake/Microsoft.GSL/Microsoft.GSLConfig.cmake")
+         "/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/Export/share/cmake/Microsoft.GSL/Microsoft.GSLConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cmake/Microsoft.GSL/Microsoft.GSLConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Microsoft.GSL" TYPE FILE FILES "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/build/CMakeFiles/Export/share/cmake/Microsoft.GSL/Microsoft.GSLConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake/Microsoft.GSL" TYPE FILE FILES "/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/Export/share/cmake/Microsoft.GSL/Microsoft.GSLConfig.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/nisp/SEAL-master/thirdparty/msgsl/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

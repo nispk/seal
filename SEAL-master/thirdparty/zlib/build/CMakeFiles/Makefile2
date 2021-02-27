@@ -44,31 +44,31 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src
+CMAKE_SOURCE_DIR = /nisp/SEAL-master/thirdparty/zlib/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build
+CMAKE_BINARY_DIR = /nisp/SEAL-master/thirdparty/zlib/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/zlibstatic.dir/all
-all: CMakeFiles/zlib.dir/all
-all: CMakeFiles/example.dir/all
-all: CMakeFiles/minigzip.dir/all
-all: CMakeFiles/minigzip64.dir/all
 all: CMakeFiles/example64.dir/all
+all: CMakeFiles/minigzip.dir/all
+all: CMakeFiles/example.dir/all
+all: CMakeFiles/zlibstatic.dir/all
+all: CMakeFiles/minigzip64.dir/all
+all: CMakeFiles/zlib.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/zlibstatic.dir/clean
-clean: CMakeFiles/zlib.dir/clean
-clean: CMakeFiles/example.dir/clean
-clean: CMakeFiles/minigzip.dir/clean
-clean: CMakeFiles/minigzip64.dir/clean
 clean: CMakeFiles/example64.dir/clean
+clean: CMakeFiles/minigzip.dir/clean
+clean: CMakeFiles/example.dir/clean
+clean: CMakeFiles/zlibstatic.dir/clean
+clean: CMakeFiles/minigzip64.dir/clean
+clean: CMakeFiles/zlib.dir/clean
 
 .PHONY : clean
 
@@ -78,85 +78,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/zlibstatic.dir
+# Target rules for target CMakeFiles/example64.dir
 
 # All Build rule for target.
-CMakeFiles/zlibstatic.dir/all:
-	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/depend
-	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target zlibstatic"
-.PHONY : CMakeFiles/zlibstatic.dir/all
+CMakeFiles/example64.dir/all: CMakeFiles/zlib.dir/all
+	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/depend
+	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=3,4 "Built target example64"
+.PHONY : CMakeFiles/example64.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/zlibstatic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 16
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zlibstatic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
-.PHONY : CMakeFiles/zlibstatic.dir/rule
+CMakeFiles/example64.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example64.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+.PHONY : CMakeFiles/example64.dir/rule
 
 # Convenience name for target.
-zlibstatic: CMakeFiles/zlibstatic.dir/rule
+example64: CMakeFiles/example64.dir/rule
 
-.PHONY : zlibstatic
-
-# clean rule for target.
-CMakeFiles/zlibstatic.dir/clean:
-	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/clean
-.PHONY : CMakeFiles/zlibstatic.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/zlib.dir
-
-# All Build rule for target.
-CMakeFiles/zlib.dir/all:
-	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/depend
-	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target zlib"
-.PHONY : CMakeFiles/zlib.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/zlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 16
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
-.PHONY : CMakeFiles/zlib.dir/rule
-
-# Convenience name for target.
-zlib: CMakeFiles/zlib.dir/rule
-
-.PHONY : zlib
+.PHONY : example64
 
 # clean rule for target.
-CMakeFiles/zlib.dir/clean:
-	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/clean
-.PHONY : CMakeFiles/zlib.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/example.dir
-
-# All Build rule for target.
-CMakeFiles/example.dir/all: CMakeFiles/zlib.dir/all
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/depend
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=1,2 "Built target example"
-.PHONY : CMakeFiles/example.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
-.PHONY : CMakeFiles/example.dir/rule
-
-# Convenience name for target.
-example: CMakeFiles/example.dir/rule
-
-.PHONY : example
-
-# clean rule for target.
-CMakeFiles/example.dir/clean:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/clean
-.PHONY : CMakeFiles/example.dir/clean
+CMakeFiles/example64.dir/clean:
+	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/clean
+.PHONY : CMakeFiles/example64.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/minigzip.dir
@@ -165,14 +111,14 @@ CMakeFiles/example.dir/clean:
 CMakeFiles/minigzip.dir/all: CMakeFiles/zlib.dir/all
 	$(MAKE) -f CMakeFiles/minigzip.dir/build.make CMakeFiles/minigzip.dir/depend
 	$(MAKE) -f CMakeFiles/minigzip.dir/build.make CMakeFiles/minigzip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=5,6 "Built target minigzip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=5,6 "Built target minigzip"
 .PHONY : CMakeFiles/minigzip.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/minigzip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/minigzip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
 .PHONY : CMakeFiles/minigzip.dir/rule
 
 # Convenience name for target.
@@ -186,20 +132,74 @@ CMakeFiles/minigzip.dir/clean:
 .PHONY : CMakeFiles/minigzip.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/example.dir
+
+# All Build rule for target.
+CMakeFiles/example.dir/all: CMakeFiles/zlib.dir/all
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/depend
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=1,2 "Built target example"
+.PHONY : CMakeFiles/example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+.PHONY : CMakeFiles/example.dir/rule
+
+# Convenience name for target.
+example: CMakeFiles/example.dir/rule
+
+.PHONY : example
+
+# clean rule for target.
+CMakeFiles/example.dir/clean:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/clean
+.PHONY : CMakeFiles/example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/zlibstatic.dir
+
+# All Build rule for target.
+CMakeFiles/zlibstatic.dir/all:
+	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/depend
+	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target zlibstatic"
+.PHONY : CMakeFiles/zlibstatic.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/zlibstatic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 16
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zlibstatic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+.PHONY : CMakeFiles/zlibstatic.dir/rule
+
+# Convenience name for target.
+zlibstatic: CMakeFiles/zlibstatic.dir/rule
+
+.PHONY : zlibstatic
+
+# clean rule for target.
+CMakeFiles/zlibstatic.dir/clean:
+	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/clean
+.PHONY : CMakeFiles/zlibstatic.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/minigzip64.dir
 
 # All Build rule for target.
 CMakeFiles/minigzip64.dir/all: CMakeFiles/zlib.dir/all
 	$(MAKE) -f CMakeFiles/minigzip64.dir/build.make CMakeFiles/minigzip64.dir/depend
 	$(MAKE) -f CMakeFiles/minigzip64.dir/build.make CMakeFiles/minigzip64.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=7,8 "Built target minigzip64"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=7,8 "Built target minigzip64"
 .PHONY : CMakeFiles/minigzip64.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/minigzip64.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/minigzip64.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
 .PHONY : CMakeFiles/minigzip64.dir/rule
 
 # Convenience name for target.
@@ -213,31 +213,31 @@ CMakeFiles/minigzip64.dir/clean:
 .PHONY : CMakeFiles/minigzip64.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/example64.dir
+# Target rules for target CMakeFiles/zlib.dir
 
 # All Build rule for target.
-CMakeFiles/example64.dir/all: CMakeFiles/zlib.dir/all
-	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/depend
-	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=3,4 "Built target example64"
-.PHONY : CMakeFiles/example64.dir/all
+CMakeFiles/zlib.dir/all:
+	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/depend
+	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target zlib"
+.PHONY : CMakeFiles/zlib.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/example64.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 18
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example64.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
-.PHONY : CMakeFiles/example64.dir/rule
+CMakeFiles/zlib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 16
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/zlib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+.PHONY : CMakeFiles/zlib.dir/rule
 
 # Convenience name for target.
-example64: CMakeFiles/example64.dir/rule
+zlib: CMakeFiles/zlib.dir/rule
 
-.PHONY : example64
+.PHONY : zlib
 
 # clean rule for target.
-CMakeFiles/example64.dir/clean:
-	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/clean
-.PHONY : CMakeFiles/example64.dir/clean
+CMakeFiles/zlib.dir/clean:
+	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/clean
+.PHONY : CMakeFiles/zlib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

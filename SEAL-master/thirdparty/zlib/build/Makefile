@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src
+CMAKE_SOURCE_DIR = /nisp/SEAL-master/thirdparty/zlib/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build
+CMAKE_BINARY_DIR = /nisp/SEAL-master/thirdparty/zlib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -91,9 +91,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,43 +122,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named zlibstatic
+# Target rules for targets named example64
 
 # Build rule for target.
-zlibstatic: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zlibstatic
-.PHONY : zlibstatic
+example64: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example64
+.PHONY : example64
 
 # fast build rule for target.
-zlibstatic/fast:
-	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/build
-.PHONY : zlibstatic/fast
-
-#=============================================================================
-# Target rules for targets named zlib
-
-# Build rule for target.
-zlib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zlib
-.PHONY : zlib
-
-# fast build rule for target.
-zlib/fast:
-	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/build
-.PHONY : zlib/fast
-
-#=============================================================================
-# Target rules for targets named example
-
-# Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example
-.PHONY : example
-
-# fast build rule for target.
-example/fast:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
+example64/fast:
+	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/build
+.PHONY : example64/fast
 
 #=============================================================================
 # Target rules for targets named minigzip
@@ -174,6 +148,32 @@ minigzip/fast:
 .PHONY : minigzip/fast
 
 #=============================================================================
+# Target rules for targets named example
+
+# Build rule for target.
+example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example
+.PHONY : example
+
+# fast build rule for target.
+example/fast:
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
+.PHONY : example/fast
+
+#=============================================================================
+# Target rules for targets named zlibstatic
+
+# Build rule for target.
+zlibstatic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zlibstatic
+.PHONY : zlibstatic
+
+# fast build rule for target.
+zlibstatic/fast:
+	$(MAKE) -f CMakeFiles/zlibstatic.dir/build.make CMakeFiles/zlibstatic.dir/build
+.PHONY : zlibstatic/fast
+
+#=============================================================================
 # Target rules for targets named minigzip64
 
 # Build rule for target.
@@ -187,17 +187,17 @@ minigzip64/fast:
 .PHONY : minigzip64/fast
 
 #=============================================================================
-# Target rules for targets named example64
+# Target rules for targets named zlib
 
 # Build rule for target.
-example64: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example64
-.PHONY : example64
+zlib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zlib
+.PHONY : zlib
 
 # fast build rule for target.
-example64/fast:
-	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/build
-.PHONY : example64/fast
+zlib/fast:
+	$(MAKE) -f CMakeFiles/zlib.dir/build.make CMakeFiles/zlib.dir/build
+.PHONY : zlib/fast
 
 # target to build an object file
 adler32.o:
@@ -417,20 +417,20 @@ inftrees.s:
 
 # target to build an object file
 test/example.o:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.o
 	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/test/example.o
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.o
 .PHONY : test/example.o
 
 # target to preprocess a source file
 test/example.i:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.i
 	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/test/example.i
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.i
 .PHONY : test/example.i
 
 # target to generate assembly for a file
 test/example.s:
-	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.s
 	$(MAKE) -f CMakeFiles/example64.dir/build.make CMakeFiles/example64.dir/test/example.s
+	$(MAKE) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/test/example.s
 .PHONY : test/example.s
 
 # target to build an object file
@@ -513,13 +513,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... zlibstatic"
-	@echo "... zlib"
-	@echo "... example"
-	@echo "... minigzip"
 	@echo "... test"
-	@echo "... minigzip64"
 	@echo "... example64"
+	@echo "... minigzip"
+	@echo "... example"
+	@echo "... zlibstatic"
+	@echo "... minigzip64"
+	@echo "... zlib"
 	@echo "... adler32.o"
 	@echo "... adler32.i"
 	@echo "... adler32.s"

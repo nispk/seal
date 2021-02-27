@@ -46,7 +46,7 @@ add_library(SEAL::seal STATIC IMPORTED)
 
 set_target_properties(SEAL::seal PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/wonderwoman/desktop/SEAL_N/SEAL-master/native/src;/home/wonderwoman/desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/nisp/SEAL-master/native/src;/nisp/SEAL-master/thirdparty/msgsl/src/include"
   INTERFACE_LINK_LIBRARIES "Threads::Threads"
 )
 
@@ -54,7 +54,7 @@ set_target_properties(SEAL::seal PROPERTIES
 set_property(TARGET SEAL::seal APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(SEAL::seal PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;CXX"
-  IMPORTED_LOCATION_RELEASE "/home/wonderwoman/desktop/SEAL_N/SEAL-master/lib/libseal-3.5.a"
+  IMPORTED_LOCATION_RELEASE "/nisp/SEAL-master/lib/libseal-3.5.a"
   )
 
 # This file does not depend on other imported targets which have

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib
+# Install script for directory: /nisp/SEAL-master/thirdparty/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/nisp/SEAL-master/thirdparty/zlib/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

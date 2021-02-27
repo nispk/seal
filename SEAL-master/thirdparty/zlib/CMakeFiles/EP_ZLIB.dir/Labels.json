@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB-complete.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB-complete.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-install.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-install.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-mkdir.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-mkdir.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-download.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-download.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-update.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-update.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-patch.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-patch.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-configure.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-configure.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-build.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-build.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-test.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-test.rule"
 		}
 	],
 	"target" : 

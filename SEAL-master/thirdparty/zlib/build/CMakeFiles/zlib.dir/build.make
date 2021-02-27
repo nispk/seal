@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src
+CMAKE_SOURCE_DIR = /nisp/SEAL-master/thirdparty/zlib/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build
+CMAKE_BINARY_DIR = /nisp/SEAL-master/thirdparty/zlib/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zlib.dir/depend.make
@@ -58,199 +58,199 @@ include CMakeFiles/zlib.dir/progress.make
 include CMakeFiles/zlib.dir/flags.make
 
 CMakeFiles/zlib.dir/adler32.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/adler32.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib.dir/adler32.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/adler32.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/adler32.c
+CMakeFiles/zlib.dir/adler32.o: /nisp/SEAL-master/thirdparty/zlib/src/adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zlib.dir/adler32.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/adler32.o   -c /nisp/SEAL-master/thirdparty/zlib/src/adler32.c
 
 CMakeFiles/zlib.dir/adler32.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/adler32.c > CMakeFiles/zlib.dir/adler32.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/adler32.c > CMakeFiles/zlib.dir/adler32.i
 
 CMakeFiles/zlib.dir/adler32.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/adler32.c -o CMakeFiles/zlib.dir/adler32.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/adler32.c -o CMakeFiles/zlib.dir/adler32.s
 
 CMakeFiles/zlib.dir/compress.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/compress.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zlib.dir/compress.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/compress.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/compress.c
+CMakeFiles/zlib.dir/compress.o: /nisp/SEAL-master/thirdparty/zlib/src/compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zlib.dir/compress.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/compress.o   -c /nisp/SEAL-master/thirdparty/zlib/src/compress.c
 
 CMakeFiles/zlib.dir/compress.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/compress.c > CMakeFiles/zlib.dir/compress.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/compress.c > CMakeFiles/zlib.dir/compress.i
 
 CMakeFiles/zlib.dir/compress.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/compress.c -o CMakeFiles/zlib.dir/compress.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/compress.c -o CMakeFiles/zlib.dir/compress.s
 
 CMakeFiles/zlib.dir/crc32.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/crc32.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zlib.dir/crc32.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/crc32.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/crc32.c
+CMakeFiles/zlib.dir/crc32.o: /nisp/SEAL-master/thirdparty/zlib/src/crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zlib.dir/crc32.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/crc32.o   -c /nisp/SEAL-master/thirdparty/zlib/src/crc32.c
 
 CMakeFiles/zlib.dir/crc32.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/crc32.c > CMakeFiles/zlib.dir/crc32.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/crc32.c > CMakeFiles/zlib.dir/crc32.i
 
 CMakeFiles/zlib.dir/crc32.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/crc32.c -o CMakeFiles/zlib.dir/crc32.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/crc32.c -o CMakeFiles/zlib.dir/crc32.s
 
 CMakeFiles/zlib.dir/deflate.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/deflate.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zlib.dir/deflate.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/deflate.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/deflate.c
+CMakeFiles/zlib.dir/deflate.o: /nisp/SEAL-master/thirdparty/zlib/src/deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zlib.dir/deflate.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/deflate.o   -c /nisp/SEAL-master/thirdparty/zlib/src/deflate.c
 
 CMakeFiles/zlib.dir/deflate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/deflate.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/deflate.c > CMakeFiles/zlib.dir/deflate.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/deflate.c > CMakeFiles/zlib.dir/deflate.i
 
 CMakeFiles/zlib.dir/deflate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/deflate.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/deflate.c -o CMakeFiles/zlib.dir/deflate.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/deflate.c -o CMakeFiles/zlib.dir/deflate.s
 
 CMakeFiles/zlib.dir/gzclose.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzclose.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzclose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zlib.dir/gzclose.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzclose.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzclose.c
+CMakeFiles/zlib.dir/gzclose.o: /nisp/SEAL-master/thirdparty/zlib/src/gzclose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zlib.dir/gzclose.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzclose.o   -c /nisp/SEAL-master/thirdparty/zlib/src/gzclose.c
 
 CMakeFiles/zlib.dir/gzclose.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzclose.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzclose.c > CMakeFiles/zlib.dir/gzclose.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/gzclose.c > CMakeFiles/zlib.dir/gzclose.i
 
 CMakeFiles/zlib.dir/gzclose.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzclose.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzclose.c -o CMakeFiles/zlib.dir/gzclose.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/gzclose.c -o CMakeFiles/zlib.dir/gzclose.s
 
 CMakeFiles/zlib.dir/gzlib.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzlib.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zlib.dir/gzlib.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzlib.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzlib.c
+CMakeFiles/zlib.dir/gzlib.o: /nisp/SEAL-master/thirdparty/zlib/src/gzlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zlib.dir/gzlib.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzlib.o   -c /nisp/SEAL-master/thirdparty/zlib/src/gzlib.c
 
 CMakeFiles/zlib.dir/gzlib.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzlib.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzlib.c > CMakeFiles/zlib.dir/gzlib.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/gzlib.c > CMakeFiles/zlib.dir/gzlib.i
 
 CMakeFiles/zlib.dir/gzlib.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzlib.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzlib.c -o CMakeFiles/zlib.dir/gzlib.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/gzlib.c -o CMakeFiles/zlib.dir/gzlib.s
 
 CMakeFiles/zlib.dir/gzread.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzread.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zlib.dir/gzread.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzread.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzread.c
+CMakeFiles/zlib.dir/gzread.o: /nisp/SEAL-master/thirdparty/zlib/src/gzread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zlib.dir/gzread.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzread.o   -c /nisp/SEAL-master/thirdparty/zlib/src/gzread.c
 
 CMakeFiles/zlib.dir/gzread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzread.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzread.c > CMakeFiles/zlib.dir/gzread.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/gzread.c > CMakeFiles/zlib.dir/gzread.i
 
 CMakeFiles/zlib.dir/gzread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzread.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzread.c -o CMakeFiles/zlib.dir/gzread.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/gzread.c -o CMakeFiles/zlib.dir/gzread.s
 
 CMakeFiles/zlib.dir/gzwrite.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/gzwrite.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzwrite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zlib.dir/gzwrite.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzwrite.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzwrite.c
+CMakeFiles/zlib.dir/gzwrite.o: /nisp/SEAL-master/thirdparty/zlib/src/gzwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zlib.dir/gzwrite.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/gzwrite.o   -c /nisp/SEAL-master/thirdparty/zlib/src/gzwrite.c
 
 CMakeFiles/zlib.dir/gzwrite.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/gzwrite.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzwrite.c > CMakeFiles/zlib.dir/gzwrite.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/gzwrite.c > CMakeFiles/zlib.dir/gzwrite.i
 
 CMakeFiles/zlib.dir/gzwrite.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/gzwrite.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzwrite.c -o CMakeFiles/zlib.dir/gzwrite.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/gzwrite.c -o CMakeFiles/zlib.dir/gzwrite.s
 
 CMakeFiles/zlib.dir/inflate.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inflate.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zlib.dir/inflate.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inflate.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inflate.c
+CMakeFiles/zlib.dir/inflate.o: /nisp/SEAL-master/thirdparty/zlib/src/inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zlib.dir/inflate.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inflate.o   -c /nisp/SEAL-master/thirdparty/zlib/src/inflate.c
 
 CMakeFiles/zlib.dir/inflate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inflate.c > CMakeFiles/zlib.dir/inflate.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/inflate.c > CMakeFiles/zlib.dir/inflate.i
 
 CMakeFiles/zlib.dir/inflate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inflate.c -o CMakeFiles/zlib.dir/inflate.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/inflate.c -o CMakeFiles/zlib.dir/inflate.s
 
 CMakeFiles/zlib.dir/infback.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/infback.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/infback.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zlib.dir/infback.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/infback.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/infback.c
+CMakeFiles/zlib.dir/infback.o: /nisp/SEAL-master/thirdparty/zlib/src/infback.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zlib.dir/infback.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/infback.o   -c /nisp/SEAL-master/thirdparty/zlib/src/infback.c
 
 CMakeFiles/zlib.dir/infback.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/infback.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/infback.c > CMakeFiles/zlib.dir/infback.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/infback.c > CMakeFiles/zlib.dir/infback.i
 
 CMakeFiles/zlib.dir/infback.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/infback.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/infback.c -o CMakeFiles/zlib.dir/infback.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/infback.c -o CMakeFiles/zlib.dir/infback.s
 
 CMakeFiles/zlib.dir/inftrees.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inftrees.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zlib.dir/inftrees.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inftrees.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inftrees.c
+CMakeFiles/zlib.dir/inftrees.o: /nisp/SEAL-master/thirdparty/zlib/src/inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/zlib.dir/inftrees.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inftrees.o   -c /nisp/SEAL-master/thirdparty/zlib/src/inftrees.c
 
 CMakeFiles/zlib.dir/inftrees.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inftrees.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inftrees.c > CMakeFiles/zlib.dir/inftrees.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/inftrees.c > CMakeFiles/zlib.dir/inftrees.i
 
 CMakeFiles/zlib.dir/inftrees.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inftrees.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inftrees.c -o CMakeFiles/zlib.dir/inftrees.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/inftrees.c -o CMakeFiles/zlib.dir/inftrees.s
 
 CMakeFiles/zlib.dir/inffast.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/inffast.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zlib.dir/inffast.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inffast.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inffast.c
+CMakeFiles/zlib.dir/inffast.o: /nisp/SEAL-master/thirdparty/zlib/src/inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/zlib.dir/inffast.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/inffast.o   -c /nisp/SEAL-master/thirdparty/zlib/src/inffast.c
 
 CMakeFiles/zlib.dir/inffast.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inffast.c > CMakeFiles/zlib.dir/inffast.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/inffast.c > CMakeFiles/zlib.dir/inffast.i
 
 CMakeFiles/zlib.dir/inffast.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inffast.c -o CMakeFiles/zlib.dir/inffast.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/inffast.c -o CMakeFiles/zlib.dir/inffast.s
 
 CMakeFiles/zlib.dir/trees.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/trees.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zlib.dir/trees.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/trees.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/trees.c
+CMakeFiles/zlib.dir/trees.o: /nisp/SEAL-master/thirdparty/zlib/src/trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/zlib.dir/trees.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/trees.o   -c /nisp/SEAL-master/thirdparty/zlib/src/trees.c
 
 CMakeFiles/zlib.dir/trees.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/trees.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/trees.c > CMakeFiles/zlib.dir/trees.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/trees.c > CMakeFiles/zlib.dir/trees.i
 
 CMakeFiles/zlib.dir/trees.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/trees.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/trees.c -o CMakeFiles/zlib.dir/trees.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/trees.c -o CMakeFiles/zlib.dir/trees.s
 
 CMakeFiles/zlib.dir/uncompr.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/uncompr.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/uncompr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zlib.dir/uncompr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/uncompr.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/uncompr.c
+CMakeFiles/zlib.dir/uncompr.o: /nisp/SEAL-master/thirdparty/zlib/src/uncompr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/zlib.dir/uncompr.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/uncompr.o   -c /nisp/SEAL-master/thirdparty/zlib/src/uncompr.c
 
 CMakeFiles/zlib.dir/uncompr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/uncompr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/uncompr.c > CMakeFiles/zlib.dir/uncompr.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/uncompr.c > CMakeFiles/zlib.dir/uncompr.i
 
 CMakeFiles/zlib.dir/uncompr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/uncompr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/uncompr.c -o CMakeFiles/zlib.dir/uncompr.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/uncompr.c -o CMakeFiles/zlib.dir/uncompr.s
 
 CMakeFiles/zlib.dir/zutil.o: CMakeFiles/zlib.dir/flags.make
-CMakeFiles/zlib.dir/zutil.o: /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zlib.dir/zutil.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/zutil.o   -c /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zutil.c
+CMakeFiles/zlib.dir/zutil.o: /nisp/SEAL-master/thirdparty/zlib/src/zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/zlib.dir/zutil.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zlib.dir/zutil.o   -c /nisp/SEAL-master/thirdparty/zlib/src/zutil.c
 
 CMakeFiles/zlib.dir/zutil.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/zutil.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zutil.c > CMakeFiles/zlib.dir/zutil.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nisp/SEAL-master/thirdparty/zlib/src/zutil.c > CMakeFiles/zlib.dir/zutil.i
 
 CMakeFiles/zlib.dir/zutil.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/zutil.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zutil.c -o CMakeFiles/zlib.dir/zutil.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nisp/SEAL-master/thirdparty/zlib/src/zutil.c -o CMakeFiles/zlib.dir/zutil.s
 
 # Object files for target zlib
 zlib_OBJECTS = \
@@ -290,7 +290,7 @@ libz.so.1.2.11: CMakeFiles/zlib.dir/uncompr.o
 libz.so.1.2.11: CMakeFiles/zlib.dir/zutil.o
 libz.so.1.2.11: CMakeFiles/zlib.dir/build.make
 libz.so.1.2.11: CMakeFiles/zlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C shared library libz.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C shared library libz.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zlib.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library libz.so.1.2.11 libz.so.1 libz.so
 
@@ -310,6 +310,6 @@ CMakeFiles/zlib.dir/clean:
 .PHONY : CMakeFiles/zlib.dir/clean
 
 CMakeFiles/zlib.dir/depend:
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nisp/SEAL-master/thirdparty/zlib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nisp/SEAL-master/thirdparty/zlib/src /nisp/SEAL-master/thirdparty/zlib/src /nisp/SEAL-master/thirdparty/zlib/build /nisp/SEAL-master/thirdparty/zlib/build /nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/zlib.dir/depend
 

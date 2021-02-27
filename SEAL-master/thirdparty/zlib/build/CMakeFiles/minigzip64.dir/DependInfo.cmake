@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/test/minigzip.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/minigzip64.dir/test/minigzip.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/test/minigzip.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/minigzip64.dir/test/minigzip.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,12 +16,12 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src"
+  "/nisp/SEAL-master/thirdparty/zlib/src"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

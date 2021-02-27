@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wonderwoman/desktop/SEAL_N/SEAL-master
+CMAKE_SOURCE_DIR = /nisp/SEAL-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wonderwoman/desktop/SEAL_N/SEAL-master
+CMAKE_BINARY_DIR = /nisp/SEAL-master
 
 # Include any dependencies generated for this target.
 include CMakeFiles/seal.dir/depend.make
@@ -62,46 +62,46 @@ seal_OBJECTS =
 
 # External object files for target seal
 seal_EXTERNAL_OBJECTS = \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/batchencoder.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/biguint.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/ciphertext.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/ckks.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/context.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/decryptor.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/intencoder.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/encryptionparams.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/encryptor.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/evaluator.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/keygenerator.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/kswitchkeys.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/memorymanager.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/modulus.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/plaintext.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/randomgen.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/serialization.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/valcheck.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/blake2b.c.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/blake2xb.c.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/clipnormal.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/common.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/croots.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/globals.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/galois.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/hash.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/iterator.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/mempool.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/numth.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/polyarithsmallmod.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/rlwe.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/rns.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/scalingvariant.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/ntt.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/streambuf.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintarith.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintarithmod.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintarithsmallmod.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintcore.cpp.o" \
-"/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/ztools.cpp.o"
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/batchencoder.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/biguint.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/ciphertext.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/ckks.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/context.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/decryptor.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/intencoder.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/encryptionparams.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/encryptor.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/evaluator.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/keygenerator.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/kswitchkeys.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/memorymanager.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/modulus.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/plaintext.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/randomgen.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/serialization.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/valcheck.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/blake2b.c.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/blake2xb.c.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/clipnormal.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/common.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/croots.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/globals.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/galois.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/hash.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/iterator.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/mempool.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/numth.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/polyarithsmallmod.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/rlwe.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/rns.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/scalingvariant.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/ntt.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/streambuf.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintarith.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintarithmod.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintarithsmallmod.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/uintcore.cpp.o" \
+"/nisp/SEAL-master/CMakeFiles/seal_obj.dir/native/src/seal/util/ztools.cpp.o"
 
 lib/libseal-3.5.a: CMakeFiles/seal_obj.dir/native/src/seal/batchencoder.cpp.o
 lib/libseal-3.5.a: CMakeFiles/seal_obj.dir/native/src/seal/biguint.cpp.o
@@ -145,13 +145,13 @@ lib/libseal-3.5.a: CMakeFiles/seal_obj.dir/native/src/seal/util/uintcore.cpp.o
 lib/libseal-3.5.a: CMakeFiles/seal_obj.dir/native/src/seal/util/ztools.cpp.o
 lib/libseal-3.5.a: CMakeFiles/seal.dir/build.make
 lib/libseal-3.5.a: CMakeFiles/seal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library lib/libseal-3.5.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nisp/SEAL-master/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library lib/libseal-3.5.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/seal.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/seal.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib && ar x /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib/libseal-3.5.a
-	cd /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib && ar x /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib/libz.a
-	cd /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib && ar rcs /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib/libseal-3.5.a *.o
-	cd /home/wonderwoman/desktop/SEAL_N/SEAL-master/lib && rm -rf *.o
+	cd /nisp/SEAL-master/lib && ar x /nisp/SEAL-master/lib/libseal-3.5.a
+	cd /nisp/SEAL-master/lib && ar x /nisp/SEAL-master/lib/libz.a
+	cd /nisp/SEAL-master/lib && ar rcs /nisp/SEAL-master/lib/libseal-3.5.a *.o
+	cd /nisp/SEAL-master/lib && rm -rf *.o
 
 # Rule to build all files generated by this target.
 CMakeFiles/seal.dir/build: lib/libseal-3.5.a
@@ -163,6 +163,6 @@ CMakeFiles/seal.dir/clean:
 .PHONY : CMakeFiles/seal.dir/clean
 
 CMakeFiles/seal.dir/depend:
-	cd /home/wonderwoman/desktop/SEAL_N/SEAL-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wonderwoman/desktop/SEAL_N/SEAL-master /home/wonderwoman/desktop/SEAL_N/SEAL-master /home/wonderwoman/desktop/SEAL_N/SEAL-master /home/wonderwoman/desktop/SEAL_N/SEAL-master /home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/seal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nisp/SEAL-master && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nisp/SEAL-master /nisp/SEAL-master /nisp/SEAL-master /nisp/SEAL-master /nisp/SEAL-master/CMakeFiles/seal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/seal.dir/depend
 

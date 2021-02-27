@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/adler32.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/adler32.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/compress.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/compress.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/crc32.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/crc32.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/deflate.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/deflate.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzclose.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzclose.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzlib.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzlib.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzread.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzread.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/gzwrite.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzwrite.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/infback.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/infback.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inffast.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/inffast.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inflate.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/inflate.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/inftrees.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/inftrees.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/trees.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/trees.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/uncompr.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/uncompr.o"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zutil.c" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/zutil.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/adler32.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/adler32.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/compress.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/compress.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/crc32.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/crc32.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/deflate.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/deflate.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/gzclose.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzclose.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/gzlib.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzlib.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/gzread.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzread.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/gzwrite.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/gzwrite.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/infback.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/infback.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/inffast.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/inffast.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/inflate.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/inflate.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/inftrees.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/inftrees.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/trees.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/trees.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/uncompr.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/uncompr.o"
+  "/nisp/SEAL-master/thirdparty/zlib/src/zutil.c" "/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir/zutil.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -31,13 +31,13 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src"
+  "/nisp/SEAL-master/thirdparty/zlib/src"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/libz.so" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/libz.so.1.2.11"
-  "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/libz.so.1" "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build/libz.so.1.2.11"
+  "/nisp/SEAL-master/thirdparty/zlib/build/libz.so" "/nisp/SEAL-master/thirdparty/zlib/build/libz.so.1.2.11"
+  "/nisp/SEAL-master/thirdparty/zlib/build/libz.so.1" "/nisp/SEAL-master/thirdparty/zlib/build/libz.so.1.2.11"
   )
 
 

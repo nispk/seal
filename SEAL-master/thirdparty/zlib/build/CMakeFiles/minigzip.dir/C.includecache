@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/test/minigzip.c
+/nisp/SEAL-master/thirdparty/zlib/src/test/minigzip.c
 zlib.h
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/test/zlib.h
+/nisp/SEAL-master/thirdparty/zlib/src/test/zlib.h
 stdio.h
 -
 string.h
@@ -34,9 +34,9 @@ windows.h
 unistd.h
 -
 
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zlib.h
+/nisp/SEAL-master/thirdparty/zlib/src/zlib.h
 zconf.h
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src/zconf.h
+/nisp/SEAL-master/thirdparty/zlib/src/zconf.h
 
 zconf.h
 stddef.h

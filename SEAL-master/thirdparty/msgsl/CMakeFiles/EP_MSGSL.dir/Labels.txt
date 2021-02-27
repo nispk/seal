@@ -1,14 +1,14 @@
 # Target labels
  EP_MSGSL
 # Source files and their labels
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL-complete.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-install.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-mkdir.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-download.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-update.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-patch.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-configure.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-build.rule
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-test.rule
+/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL
+/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL.rule
+/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL-complete.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-install.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-mkdir.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-download.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-update.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-patch.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-configure.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-build.rule
+/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-test.rule

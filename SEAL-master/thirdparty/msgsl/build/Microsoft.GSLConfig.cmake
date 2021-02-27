@@ -51,7 +51,7 @@ add_library(Microsoft.GSL::GSL INTERFACE IMPORTED)
 set_target_properties(Microsoft.GSL::GSL PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "\$<\$<CXX_COMPILER_ID:MSVC>:;_SCL_SECURE_NO_WARNINGS;_SILENCE_CXX17_UNCAUGHT_EXCEPTION_DEPRECATION_WARNING;>"
   INTERFACE_COMPILE_FEATURES "cxx_std_14"
-  INTERFACE_INCLUDE_DIRECTORIES "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/nisp/SEAL-master/thirdparty/msgsl/src/include"
 )
 
 # This file does not depend on other imported targets which have

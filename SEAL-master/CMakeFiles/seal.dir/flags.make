@@ -7,11 +7,11 @@ C_FLAGS = -O3 -DNDEBUG -fPIC   -pthread
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/wonderwoman/desktop/SEAL_N/SEAL-master/native/src -I/home/wonderwoman/desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src/include 
+C_INCLUDES = -I/nisp/SEAL-master/native/src -I/nisp/SEAL-master/thirdparty/msgsl/src/include 
 
-CXX_FLAGS = -O3 -DNDEBUG -fPIC   -pthread -std=gnu++1z
+CXX_FLAGS = -O3 -DNDEBUG -fPIC   -pthread -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wonderwoman/desktop/SEAL_N/SEAL-master/native/src -I/home/wonderwoman/desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src/include 
+CXX_INCLUDES = -I/nisp/SEAL-master/native/src -I/nisp/SEAL-master/thirdparty/msgsl/src/include 
 

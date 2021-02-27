@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL-complete.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL-complete.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-install.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-install.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-mkdir.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-mkdir.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-download.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-download.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-update.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-update.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-patch.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-patch.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-configure.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-configure.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-build.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-build.rule"
 		},
 		{
-			"file" : "/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-test.rule"
+			"file" : "/nisp/SEAL-master/thirdparty/msgsl/stamp/EP_MSGSL-test.rule"
 		}
 	],
 	"target" : 

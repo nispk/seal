@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib
+CMAKE_SOURCE_DIR = /nisp/SEAL-master/thirdparty/zlib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib
+CMAKE_BINARY_DIR = /nisp/SEAL-master/thirdparty/zlib
 
 # Utility rule file for EP_ZLIB.
 
@@ -65,58 +65,58 @@ CMakeFiles/EP_ZLIB-complete: stamp/EP_ZLIB-configure
 CMakeFiles/EP_ZLIB-complete: stamp/EP_ZLIB-build
 CMakeFiles/EP_ZLIB-complete: stamp/EP_ZLIB-install
 CMakeFiles/EP_ZLIB-complete: stamp/EP_ZLIB-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'EP_ZLIB'"
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles
-	/usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB-complete
-	/usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'EP_ZLIB'"
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/CMakeFiles
+	/usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB-complete
+	/usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-done
 
 stamp/EP_ZLIB-install: stamp/EP_ZLIB-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'EP_ZLIB'"
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E echo_append
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'EP_ZLIB'"
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E echo_append
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-install
 
 stamp/EP_ZLIB-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'EP_ZLIB'"
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/EP_ZLIB-prefix
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/tmp
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/EP_ZLIB-prefix/src
-	/usr/local/bin/cmake -E make_directory /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp
-	/usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'EP_ZLIB'"
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/src
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/build
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/EP_ZLIB-prefix
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/tmp
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/stamp
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/EP_ZLIB-prefix/src
+	/usr/local/bin/cmake -E make_directory /nisp/SEAL-master/thirdparty/zlib/stamp
+	/usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-mkdir
 
 stamp/EP_ZLIB-download: stamp/EP_ZLIB-gitinfo.txt
 stamp/EP_ZLIB-download: stamp/EP_ZLIB-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'EP_ZLIB'"
-	/usr/local/bin/cmake -P /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/tmp/EP_ZLIB-gitclone.cmake
-	/usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'EP_ZLIB'"
+	/usr/local/bin/cmake -P /nisp/SEAL-master/thirdparty/zlib/tmp/EP_ZLIB-gitclone.cmake
+	/usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-download
 
 stamp/EP_ZLIB-update: stamp/EP_ZLIB-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'EP_ZLIB'"
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src && /usr/local/bin/cmake -P /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/tmp/EP_ZLIB-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing update step for 'EP_ZLIB'"
+	cd /nisp/SEAL-master/thirdparty/zlib/src && /usr/local/bin/cmake -P /nisp/SEAL-master/thirdparty/zlib/tmp/EP_ZLIB-gitupdate.cmake
 
 stamp/EP_ZLIB-patch: stamp/EP_ZLIB-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'EP_ZLIB'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'EP_ZLIB'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-patch
+	/usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-patch
 
 stamp/EP_ZLIB-configure: tmp/EP_ZLIB-cfgcmd.txt
 stamp/EP_ZLIB-configure: stamp/EP_ZLIB-update
 stamp/EP_ZLIB-configure: stamp/EP_ZLIB-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'EP_ZLIB'"
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DSKIP_INSTALL_ALL=ON -Wno-dev "-GUnix Makefiles" /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/src
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'EP_ZLIB'"
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DSKIP_INSTALL_ALL=ON -Wno-dev "-GUnix Makefiles" /nisp/SEAL-master/thirdparty/zlib/src
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-configure
 
 stamp/EP_ZLIB-build: stamp/EP_ZLIB-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'EP_ZLIB'"
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && $(MAKE)
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'EP_ZLIB'"
+	cd /nisp/SEAL-master/thirdparty/zlib/build && $(MAKE)
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-build
 
 stamp/EP_ZLIB-test: stamp/EP_ZLIB-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'EP_ZLIB'"
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E echo_append
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/nisp/SEAL-master/thirdparty/zlib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No test step for 'EP_ZLIB'"
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E echo_append
+	cd /nisp/SEAL-master/thirdparty/zlib/build && /usr/local/bin/cmake -E touch /nisp/SEAL-master/thirdparty/zlib/stamp/EP_ZLIB-test
 
 EP_ZLIB: CMakeFiles/EP_ZLIB
 EP_ZLIB: CMakeFiles/EP_ZLIB-complete
@@ -142,6 +142,6 @@ CMakeFiles/EP_ZLIB.dir/clean:
 .PHONY : CMakeFiles/EP_ZLIB.dir/clean
 
 CMakeFiles/EP_ZLIB.dir/depend:
-	cd /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.dir/DependInfo.cmake --color=$(COLOR)
+	cd /nisp/SEAL-master/thirdparty/zlib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nisp/SEAL-master/thirdparty/zlib /nisp/SEAL-master/thirdparty/zlib /nisp/SEAL-master/thirdparty/zlib /nisp/SEAL-master/thirdparty/zlib /nisp/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EP_ZLIB.dir/depend
 

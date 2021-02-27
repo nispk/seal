@@ -44,10 +44,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl
+CMAKE_SOURCE_DIR = /nisp/SEAL-master/thirdparty/msgsl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl
+CMAKE_BINARY_DIR = /nisp/SEAL-master/thirdparty/msgsl
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/EP_MSGSL.dir/all:
 	$(MAKE) -f CMakeFiles/EP_MSGSL.dir/build.make CMakeFiles/EP_MSGSL.dir/depend
 	$(MAKE) -f CMakeFiles/EP_MSGSL.dir/build.make CMakeFiles/EP_MSGSL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target EP_MSGSL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target EP_MSGSL"
 .PHONY : CMakeFiles/EP_MSGSL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EP_MSGSL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/msgsl/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/EP_MSGSL.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/msgsl/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nisp/SEAL-master/thirdparty/msgsl/CMakeFiles 0
 .PHONY : CMakeFiles/EP_MSGSL.dir/rule
 
 # Convenience name for target.

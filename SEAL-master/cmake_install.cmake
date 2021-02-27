@@ -1,4 +1,4 @@
-# Install script for directory: /home/wonderwoman/desktop/SEAL_N/SEAL-master
+# Install script for directory: /nisp/SEAL-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/wonderwoman/desktop/SEAL_N/SEAL-master/lib/libseal-3.5.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/nisp/SEAL-master/lib/libseal-3.5.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5/SEALTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5/SEALTargets.cmake"
-         "/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/Export/lib/cmake/SEAL-3.5/SEALTargets.cmake")
+         "/nisp/SEAL-master/CMakeFiles/Export/lib/cmake/SEAL-3.5/SEALTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5/SEALTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -54,32 +54,30 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5" TYPE FILE FILES "/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/Export/lib/cmake/SEAL-3.5/SEALTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5" TYPE FILE FILES "/nisp/SEAL-master/CMakeFiles/Export/lib/cmake/SEAL-3.5/SEALTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5" TYPE FILE FILES "/home/wonderwoman/desktop/SEAL_N/SEAL-master/CMakeFiles/Export/lib/cmake/SEAL-3.5/SEALTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5" TYPE FILE FILES "/nisp/SEAL-master/CMakeFiles/Export/lib/cmake/SEAL-3.5/SEALTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SEAL-3.5" TYPE FILE FILES
-    "/home/wonderwoman/desktop/SEAL_N/SEAL-master/cmake/SEALConfig.cmake"
-    "/home/wonderwoman/desktop/SEAL_N/SEAL-master/cmake/SEALConfigVersion.cmake"
+    "/nisp/SEAL-master/cmake/SEALConfig.cmake"
+    "/nisp/SEAL-master/cmake/SEALConfigVersion.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wonderwoman/desktop/SEAL_N/SEAL-master/seal-3.5.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/nisp/SEAL-master/seal-3.5.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/SEAL-3.5" TYPE DIRECTORY FILES "/home/wonderwoman/desktop/SEAL_N/SEAL-master/thirdparty/msgsl/src/include/gsl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/SEAL-3.5" TYPE DIRECTORY FILES "/nisp/SEAL-master/thirdparty/msgsl/src/include/gsl")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/wonderwoman/desktop/SEAL_N/SEAL-master/native/src/seal/cmake_install.cmake")
-  include("/home/wonderwoman/desktop/SEAL_N/SEAL-master/native/examples/cmake_install.cmake")
-  include("/home/wonderwoman/desktop/SEAL_N/SEAL-master/native/tests/seal/cmake_install.cmake")
+  include("/nisp/SEAL-master/native/src/seal/cmake_install.cmake")
 
 endif()
 
@@ -91,5 +89,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wonderwoman/desktop/SEAL_N/SEAL-master/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/nisp/SEAL-master/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
