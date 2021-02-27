@@ -1,3 +1,0 @@
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/CMakeFiles/EP_GTEST.dir
-/mnt/c/Users/npkal/Desktop/SEAL_N/SEAL-master/thirdparty/googletest/CMakeFiles/edit_cache.dir

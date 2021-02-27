@@ -1,1 +1,0 @@
-/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/minigzip64.dir/test/minigzip.o  -o minigzip64 -Wl,-rpath,/nisp/SEAL-master/thirdparty/zlib/build libz.so.1.2.11 

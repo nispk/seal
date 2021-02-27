@@ -1,3 +1,0 @@
-/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/rebuild_cache.dir
-/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/edit_cache.dir
-/nisp/SEAL-master/thirdparty/msgsl/CMakeFiles/EP_MSGSL.dir

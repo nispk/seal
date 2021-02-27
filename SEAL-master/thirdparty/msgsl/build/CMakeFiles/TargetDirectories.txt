@@ -1,6 +1,0 @@
-/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/install/strip.dir
-/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/install/local.dir
-/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/install.dir
-/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/list_install_components.dir
-/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/rebuild_cache.dir
-/nisp/SEAL-master/thirdparty/msgsl/build/CMakeFiles/edit_cache.dir

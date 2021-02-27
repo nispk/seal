@@ -1,9 +1,0 @@
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/rebuild_cache.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/edit_cache.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/test.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/example64.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/minigzip.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/example.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlibstatic.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/minigzip64.dir
-/nisp/SEAL-master/thirdparty/zlib/build/CMakeFiles/zlib.dir

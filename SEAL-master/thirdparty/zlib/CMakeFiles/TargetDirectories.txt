@@ -1,3 +1,0 @@
-/nisp/SEAL-master/thirdparty/zlib/CMakeFiles/rebuild_cache.dir
-/nisp/SEAL-master/thirdparty/zlib/CMakeFiles/edit_cache.dir
-/nisp/SEAL-master/thirdparty/zlib/CMakeFiles/EP_ZLIB.dir
